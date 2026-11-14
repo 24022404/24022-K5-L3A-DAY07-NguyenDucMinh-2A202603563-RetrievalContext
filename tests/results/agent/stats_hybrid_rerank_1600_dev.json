@@ -1,0 +1,20 @@
+{
+ "config": "hybrid_rerank_1600",
+ "split": "dev",
+ "model": "gemini-3.5-flash-lite",
+ "cases": 18,
+ "errors": 1,
+ "tool_use": "17/17",
+ "searches_distribution": {
+  "1": 12,
+  "3": 5
+ },
+ "context_evidence_rate": "12/15",
+ "answered_answerable": "11/15",
+ "abstained_unanswerable": "2/2",
+ "answers_with_citation": "11/11",
+ "median_latency_s": 10.09,
+ "tokens_prompt": 26914,
+ "tokens_output": 1585,
+ "cost_usd": "0 (Gemini API free tier)"
+}

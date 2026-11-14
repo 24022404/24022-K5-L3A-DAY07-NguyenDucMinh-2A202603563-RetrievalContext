@@ -1,0 +1,55 @@
+[
+ {
+  "query_id": "q17",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng, trích Rule 18",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q18",
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng, có cả ngoại lệ less than a hundred",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q19",
+  "citation_support": [
+   true
+  ],
+  "reason": "Không trả lời câu hỏi: chỉ nói nghĩa nevertheless không đứng đầu câu; chunk p37-000 không có trong context",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q20",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q21",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "u03",
+  "citation_support": [],
+  "reason": "Từ chối đúng",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u04",
+  "citation_support": [],
+  "reason": "Từ chối đúng",
+  "abstention_correct": true
+ }
+]

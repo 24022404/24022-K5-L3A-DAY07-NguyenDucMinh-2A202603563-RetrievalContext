@@ -1,0 +1,124 @@
+[
+ {
+  "query_id": "q01",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng quy tắc thêm 's và nêu ngoại lệ, nguồn p02 hỗ trợ",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q02",
+  "citation_support": [
+   true
+  ],
+  "reason": "Liệt kê đúng các ngoại lệ, có cả hers/its; nguồn p02",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q03",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng: tên công ty bỏ dấu phẩy cuối",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q04",
+  "citation_support": [],
+  "reason": "Từ chối sai: p02-003 có trong kết quả tìm nhưng không vào context vì các chunk lấy trước đã chiếm hết 800 ký tự",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q05",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng: dấu chấm phẩy",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q06",
+  "citation_support": [
+   true
+  ],
+  "reason": "Sai: chỉ nói không được dùng dấu phẩy, bỏ mất ngoại lệ (mệnh đề ngắn, cùng dạng) vì chunk p07 không có trong context",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q07",
+  "citation_support": [],
+  "reason": "Từ chối sai: chunk Rule 6 (729 ký tự) được tìm thấy nhưng không vừa ngân sách 800",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q08",
+  "citation_support": [],
+  "reason": "Từ chối sai: chunk Rule 7 (740 ký tự) được tìm thấy nhưng không vừa ngân sách 800",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q09",
+  "citation_support": [],
+  "reason": "Từ chối sai: chunk p10-001 dài, không vừa ngân sách 800",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q10",
+  "citation_support": [],
+  "reason": "Từ chối sai: cùng chunk p10-001 bị loại khi đóng gói",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q11",
+  "citation_support": [],
+  "reason": "Từ chối sai: chunk p14-001 không vừa context",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q12",
+  "citation_support": [],
+  "reason": "Từ chối sai: dense không tìm thấy p19 (cụm từ nguyên văn) qua cả 3 lượt",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q13",
+  "citation_support": [],
+  "reason": "Từ chối sai: chunk p26-000 không vừa context",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q14",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng: data là số nhiều",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q15",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng nguyên văn quy tắc",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q16",
+  "citation_support": [],
+  "reason": "Từ chối sai: chunk While (580 ký tự) được tìm thấy ở lượt sau nhưng context đã đầy bởi chunk lượt trước",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "u01",
+  "citation_support": [],
+  "reason": "Từ chối đúng, không khẳng định thêm",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u02",
+  "citation_support": [],
+  "reason": "Từ chối đúng",
+  "abstention_correct": true
+ }
+]

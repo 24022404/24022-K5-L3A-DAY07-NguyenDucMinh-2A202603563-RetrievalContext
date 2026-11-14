@@ -1,0 +1,763 @@
+[
+ {
+  "query_id": "q01",
+  "split": "dev",
+  "config": "bm25",
+  "method": "bm25",
+  "top_k": 3,
+  "budget": 800,
+  "question": "How do you form the possessive singular of a noun, for example with names like Charles or Burns?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "C-strunk-elements-of-style-1920-p02-001",
+    "page": 2,
+    "chapter": 2,
+    "score": 26.4361,
+    "hit": true,
+    "text": "1. Form the possessive singular of nouns by adding 's.\n\nFollow this rule whatever the final consonant. Thus write,\n\n  Charles's friend\n\n  Burns's poems\n\n  the witch's malice\n\nThis is the usage of the United States Government Printing Office and of\nthe Oxford University Press.\n\nExceptions are the possessive of ancient proper names in -es and\n-is, the possessive Jesus', and such forms as for conscience'\nsake, for righteousness' sake. But such forms as Achilles' heel,\nMoses' laws, Isis' temple are commonly replaced by\n\n  the heel of Achilles\n\n  the laws of Moses\n\n  the temple of Isis\n\nThe pronominal possessives hers, its, theirs, yours, and\noneself have no apostrophe."
+   },
+   {
+    "rank": 2,
+    "id": "C-strunk-elements-of-style-1920-p39-004",
+    "page": 39,
+    "chapter": 5,
+    "score": 19.0451,
+    "hit": false,
+    "text": "One of the most. Avoid beginning essays or paragraphs with this\nformula, as, \"One of the most interesting developments of modern science\nis, etc.;\" \"Switzerland is one of the most interesting countries of\nEurope.\" There is nothing wrong in this; it is simply threadbare and\nforcible-feeble.\n\nA common blunder is to use a singular verb in a relative clause\nfollowing this or a similar expression, when the relative is the\nsubject.\n\n  One of the ablest men that has attacked this problem.\n\n    One of the ablest men that have attacked this problem.\n\nParticiple for verbal noun.\n\n  Do you mind me asking a question?\n\n    Do you mind my asking a question?\n\n  There was little prospect of the Senate accepting even this\n  compromise."
+   },
+   {
+    "rank": 3,
+    "id": "C-strunk-elements-of-style-1920-p31-002",
+    "page": 31,
+    "chapter": 4,
+    "score": 18.3775,
+    "hit": false,
+    "text": "Titles. For the titles of literary works, scholarly usage prefers\nitalics with capitalized initials. The usage of editors and publishers\nvaries, some using italics with capitalized initials, others using Roman\nwith capitalized initials and with or without quotation marks. Use\nitalics (indicated in manuscript by underscoring), except in writing for\na periodical that follows a different practice. Omit initial A or\nThe from titles when you place the possessive before them.\n\n  The Iliad; the Odyssey; As You Like It; To a Skylark; The\n  Newcomes; A Tale of Two Cities; Dickens's Tale of Two Cities."
+   }
+  ],
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p02-001"
+  ],
+  "context_chars": 765,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "latency_ms": 2.0
+ },
+ {
+  "query_id": "q02",
+  "split": "dev",
+  "config": "bm25",
+  "method": "bm25",
+  "top_k": 3,
+  "budget": 800,
+  "question": "Which possessive forms are exceptions to the rule of adding 's?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "C-strunk-elements-of-style-1920-p02-001",
+    "page": 2,
+    "chapter": 2,
+    "score": 26.0211,
+    "hit": true,
+    "text": "1. Form the possessive singular of nouns by adding 's.\n\nFollow this rule whatever the final consonant. Thus write,\n\n  Charles's friend\n\n  Burns's poems\n\n  the witch's malice\n\nThis is the usage of the United States Government Printing Office and of\nthe Oxford University Press.\n\nExceptions are the possessive of ancient proper names in -es and\n-is, the possessive Jesus', and such forms as for conscience'\nsake, for righteousness' sake. But such forms as Achilles' heel,\nMoses' laws, Isis' temple are commonly replaced by\n\n  the heel of Achilles\n\n  the laws of Moses\n\n  the temple of Isis\n\nThe pronominal possessives hers, its, theirs, yours, and\noneself have no apostrophe."
+   },
+   {
+    "rank": 2,
+    "id": "C-strunk-elements-of-style-1920-p40-000",
+    "page": 40,
+    "chapter": 5,
+    "score": 12.9264,
+    "hit": false,
+    "text": "In the left-hand column, asking and accepting are present\nparticiples; in the right-hand column, they are verbal nouns (gerunds).\nThe construction shown in the left-hand column is occasionally found,\nand has its defenders. Yet it is easy to see that the second sentence\nhas to do not with a prospect of the Senate, but with a prospect of\naccepting. In this example, at least, the construction is plainly\nillogical.\n\nAs the authors of The King's English point out, there are sentences\napparently, but not really, of this type, in which the possessive is not\ncalled for.\n\n  I cannot imagine Lincoln refusing his assent to this measure."
+   },
+   {
+    "rank": 3,
+    "id": "C-strunk-elements-of-style-1920-p40-001",
+    "page": 40,
+    "chapter": 5,
+    "score": 12.7863,
+    "hit": false,
+    "text": "In this sentence, what the writer cannot imagine is Lincoln himself, in\nthe act of refusing his assent. Yet the meaning would be virtually the\nsame, except for a slight loss of vividness, if he had written,\n\n  I cannot imagine Lincoln's refusing his assent to this measure.\n\nBy using the possessive, the writer will always be on the safe side.\n\nIn the examples above, the subject of the action is a single, unmodified\nterm, immediately preceding the verbal noun, and the construction is as\ngood as any that could be used. But in any sentence in which it is a\nmere clumsy substitute for something simpler, or in which the use of the\npossessive is awkward or impossible, should of course be recast.\n\n  In the event of a reconsideration of the whole matter's becoming\n  necessary"
+   }
+  ],
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p02-001"
+  ],
+  "context_chars": 765,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "latency_ms": 1.3
+ },
+ {
+  "query_id": "q03",
+  "split": "dev",
+  "config": "bm25",
+  "method": "bm25",
+  "top_k": 3,
+  "budget": 800,
+  "question": "In a series of terms, when is the last comma left out?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "C-strunk-elements-of-style-1920-p02-002",
+    "page": 2,
+    "chapter": 2,
+    "score": 22.6537,
+    "hit": true,
+    "text": "2. In a series of three or more terms with a single conjunction, use a\ncomma after each term except the last.\n\nThus write,\n\n  red, white, and blue\n\n  gold, silver, or copper\n\n  He opened the letter, read it, and made a note of its contents.\n\nThis is also the usage of the Government Printing Office and of the\nOxford University Press.\n\nIn the names of business firms the last comma is omitted, as,\n\n  Brown, Shipley & Co."
+   },
+   {
+    "rank": 2,
+    "id": "C-strunk-elements-of-style-1920-p35-004",
+    "page": 35,
+    "chapter": 5,
+    "score": 19.3956,
+    "hit": false,
+    "text": "Etc. Equivalent to and the rest, and so forth, and hence not to be\nused if one of these would be insufficient, that is, if the reader would\nbe left in doubt as to any important particulars. Least open to\nobjection when it represents the last terms of a list already given in\nfull, or immaterial words at the end of a quotation.\n\nAt the end of a list introduced by such as, for example, or any\nsimilar expression, etc. is incorrect."
+   },
+   {
+    "rank": 3,
+    "id": "C-strunk-elements-of-style-1920-p21-002",
+    "page": 21,
+    "chapter": 3,
+    "score": 15.8905,
+    "hit": false,
+    "text": "  The third concert of the subscription series was given last evening,\n  and a large audience was in attendance. Mr. Edward Appleton was the\n  soloist, and the Boston Symphony Orchestra furnished the instrumental\n  music. The former showed himself to be an artist of the first rank,\n  while the latter proved itself fully deserving of its high reputation.\n  The interest aroused by the series has been very gratifying to the\n  Committee, and it is planned to give a similar series annually\n  hereafter. The fourth concert will be given on Tuesday, May 10, when\n  an equally attractive programme will be presented."
+   }
+  ],
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p02-002"
+  ],
+  "context_chars": 513,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "latency_ms": 1.3
+ },
+ {
+  "query_id": "q04",
+  "split": "dev",
+  "config": "bm25",
+  "method": "bm25",
+  "top_k": 3,
+  "budget": 800,
+  "question": "If I set off an interrupting phrase in a sentence, is it acceptable to put a comma on only one side of it?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "C-strunk-elements-of-style-1920-p06-001",
+    "page": 6,
+    "chapter": 2,
+    "score": 26.7147,
+    "hit": false,
+    "text": "If a dependent clause, or an introductory phrase requiring to be set off\nby a comma, precedes the second independent clause, no comma is needed\nafter the conjunction.\n\n  The situation is perilous, but if we are prepared to act promptly,\n  there is still one chance of escape.\n\nWhen the subject is the same for both clauses and is expressed only\nonce, a comma is required if the connective is but. If the connective\nis and, the comma should be omitted if the relation between the two\nstatements is close or immediate.\n\n  I have heard his arguments, but am still unconvinced.\n\n  He has had several years' experience and is thoroughly competent."
+   },
+   {
+    "rank": 2,
+    "id": "C-strunk-elements-of-style-1920-p11-001",
+    "page": 11,
+    "chapter": 3,
+    "score": 22.2736,
+    "hit": false,
+    "text": "If the paragraph forms part of a larger composition, its relation to\nwhat precedes, or its function as a part of the whole, may need to be\nexpressed. This can sometimes be done by a mere word or phrase (again;\ntherefore; for the same reason) in the topic sentence. Sometimes,\nhowever, it is expedient to precede the topic sentence by one or more\nsentences of introduction or transition. If more than one such sentence\nis required, it is generally better to set apart the transitional\nsentences as a separate paragraph."
+   },
+   {
+    "rank": 3,
+    "id": "C-strunk-elements-of-style-1920-p28-000",
+    "page": 28,
+    "chapter": 3,
+    "score": 22.2471,
+    "hit": false,
+    "text": "The effectiveness of the periodic sentence arises from the prominence\nwhich it gives to the main statement.\n\n  Four centuries ago, Christopher Columbus, one of the Italian mariners\n  whom the decline of their own republics had put at the service of the\n  world and of adventure, seeking for Spain a westward passage to the\n  Indies as a set-off against the achievements of Portuguese\n  discoverers, lighted on America.\n\n  With these hopes and in this belief I would urge you, laying aside all\n  hindrance, thrusting away all private aims, to devote yourself\n  unswervingly and unflinchingly to the vigorous and successful\n  prosecution of this war."
+   }
+  ],
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p06-001"
+  ],
+  "context_chars": 734,
+  "hit1": false,
+  "hit3": false,
+  "context_hit": false,
+  "latency_ms": 2.4
+ },
+ {
+  "query_id": "q05",
+  "split": "dev",
+  "config": "bm25",
+  "method": "bm25",
+  "top_k": 3,
+  "budget": 800,
+  "question": "What punctuation mark should join two grammatically complete clauses that are not joined by a conjunction?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "C-strunk-elements-of-style-1920-p06-002",
+    "page": 6,
+    "chapter": 2,
+    "score": 46.9202,
+    "hit": true,
+    "text": "5. Do not join independent clauses by a comma.\n\nIf two or more clauses, grammatically complete and not joined by a\nconjunction, are to form a single compound sentence, the proper mark of\npunctuation is a semicolon."
+   },
+   {
+    "rank": 2,
+    "id": "C-strunk-elements-of-style-1920-p22-000",
+    "page": 22,
+    "chapter": 3,
+    "score": 16.6749,
+    "hit": false,
+    "text": "If the writer finds that he has written a series of sentences of the\ntype described, he should recast enough of them to remove the monotony,\nreplacing them by simple sentences, by sentences of two clauses joined\nby a semicolon, by periodic sentences of two clauses, by sentences,\nloose or periodic, of three clauses--whichever best represent the real\nrelations of the thought."
+   },
+   {
+    "rank": 3,
+    "id": "C-strunk-elements-of-style-1920-p07-000",
+    "page": 7,
+    "chapter": 2,
+    "score": 10.8362,
+    "hit": false,
+    "text": "  Stevenson's romances are entertaining; they are full of exciting\n  adventures.\n\n  It is nearly half past five; we cannot reach town before dark.\n\nIt is of course equally correct to write the above as two sentences\neach, replacing the semicolons by periods.\n\n  Stevenson's romances are entertaining. They are full of exciting\n  adventures.\n\n  It is nearly half past five. We cannot reach town before dark.\n\nIf a conjunction is inserted the proper mark is a comma (Rule 4).\n\n  Stevenson's romances are entertaining, for they are full of exciting\n  adventures.\n\n  It is nearly half past five, and we cannot reach town before dark."
+   }
+  ],
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p06-002",
+   "C-strunk-elements-of-style-1920-p22-000"
+  ],
+  "context_chars": 777,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "latency_ms": 1.8
+ },
+ {
+  "query_id": "q06",
+  "split": "dev",
+  "config": "bm25",
+  "method": "bm25",
+  "top_k": 3,
+  "budget": 800,
+  "question": "When is it acceptable to join independent clauses with just a comma?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "C-strunk-elements-of-style-1920-p06-002",
+    "page": 6,
+    "chapter": 2,
+    "score": 23.1694,
+    "hit": false,
+    "text": "5. Do not join independent clauses by a comma.\n\nIf two or more clauses, grammatically complete and not joined by a\nconjunction, are to form a single compound sentence, the proper mark of\npunctuation is a semicolon."
+   },
+   {
+    "rank": 2,
+    "id": "C-strunk-elements-of-style-1920-p06-001",
+    "page": 6,
+    "chapter": 2,
+    "score": 15.603,
+    "hit": false,
+    "text": "If a dependent clause, or an introductory phrase requiring to be set off\nby a comma, precedes the second independent clause, no comma is needed\nafter the conjunction.\n\n  The situation is perilous, but if we are prepared to act promptly,\n  there is still one chance of escape.\n\nWhen the subject is the same for both clauses and is expressed only\nonce, a comma is required if the connective is but. If the connective\nis and, the comma should be omitted if the relation between the two\nstatements is close or immediate.\n\n  I have heard his arguments, but am still unconvinced.\n\n  He has had several years' experience and is thoroughly competent."
+   },
+   {
+    "rank": 3,
+    "id": "C-strunk-elements-of-style-1920-p05-000",
+    "page": 5,
+    "chapter": 2,
+    "score": 13.0791,
+    "hit": false,
+    "text": "Sentences of this type, isolated from their context, may seem to be in\nneed of rewriting. As they make complete sense when the comma is\nreached, the second clause has the appearance of an afterthought.\nFurther, and is the least specific of connectives. Used between\nindependent clauses, it indicates only that a relation exists between\nthem without defining that relation. In the example above, the relation\nis that of cause and result. The two sentences might be rewritten:\n\n  As the early records of the city have disappeared, the story of its\n  first years can no longer be reconstructed.\n\n  Although the situation is perilous, there is still one chance of\n  escape.\n\nOr the subordinate clauses might be replaced by phrases:"
+   }
+  ],
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p06-002"
+  ],
+  "context_chars": 306,
+  "hit1": false,
+  "hit3": false,
+  "context_hit": false,
+  "latency_ms": 1.6
+ },
+ {
+  "query_id": "q07",
+  "split": "dev",
+  "config": "bm25",
+  "method": "bm25",
+  "top_k": 3,
+  "budget": 800,
+  "question": "Can a single emphatic word or phrase be punctuated as if it were a whole sentence?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "C-strunk-elements-of-style-1920-p11-001",
+    "page": 11,
+    "chapter": 3,
+    "score": 20.0529,
+    "hit": false,
+    "text": "If the paragraph forms part of a larger composition, its relation to\nwhat precedes, or its function as a part of the whole, may need to be\nexpressed. This can sometimes be done by a mere word or phrase (again;\ntherefore; for the same reason) in the topic sentence. Sometimes,\nhowever, it is expedient to precede the topic sentence by one or more\nsentences of introduction or transition. If more than one such sentence\nis required, it is generally better to set apart the transitional\nsentences as a separate paragraph."
+   },
+   {
+    "rank": 2,
+    "id": "C-strunk-elements-of-style-1920-p30-002",
+    "page": 30,
+    "chapter": 4,
+    "score": 19.3088,
+    "hit": false,
+    "text": "Syllabication. If there is room at the end of a line for one or more\nsyllables of a word, but not for the whole word, divide the word, unless\nthis involves cutting off only a single letter, or cutting off only two\nletters of a long word. No hard and fast rule for all words can be laid\ndown. The principles most frequently applicable are:"
+   },
+   {
+    "rank": 3,
+    "id": "C-strunk-elements-of-style-1920-p29-003",
+    "page": 29,
+    "chapter": 4,
+    "score": 16.6154,
+    "hit": false,
+    "text": "Parentheses. A sentence containing an expression in parenthesis is\npunctuated, outside of the marks of parenthesis, exactly as if the\nexpression in parenthesis were absent. The expression within is\npunctuated as if it stood by itself, except that the final stop is\nomitted unless it is a question mark or an exclamation point.\n\n  I went to his house yesterday (my third attempt to see him), but he\n  had left town.\n\n  He declares (and why should we doubt his good faith?) that he is now\n  certain of success.\n\n(When a wholly detached expression or sentence is parenthesized, the\nfinal stop comes before the last mark of parenthesis.)"
+   }
+  ],
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p11-001"
+  ],
+  "context_chars": 611,
+  "hit1": false,
+  "hit3": false,
+  "context_hit": false,
+  "latency_ms": 1.8
+ },
+ {
+  "query_id": "q08",
+  "split": "dev",
+  "config": "bm25",
+  "method": "bm25",
+  "top_k": 3,
+  "budget": 800,
+  "question": "What is wrong with the sentence 'Wondering irresolutely what to do next, the clock struck twelve'?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "C-strunk-elements-of-style-1920-p08-004",
+    "page": 8,
+    "chapter": 2,
+    "score": 37.3234,
+    "hit": false,
+    "text": "  A soldier of proved valor, they entrusted him with the defence of the\n  city.\n\n    A soldier of proved valor, he was entrusted with the defence of the\n    city.\n\n  Young and inexperienced, the task seemed easy to me.\n\n    Young and inexperienced, I thought the task easy.\n\n  Without a friend to counsel him, the temptation proved irresistible.\n\n    Without a friend to counsel him, he found the temptation\n    irresistible.\n\nSentences violating this rule are often ludicrous.\n\n  Being in a dilapidated condition, I was able to buy the house very\n  cheap.\n\n  Wondering irresolutely what to do next, the clock struck twelve."
+   },
+   {
+    "rank": 2,
+    "id": "C-strunk-elements-of-style-1920-p14-000",
+    "page": 14,
+    "chapter": 3,
+    "score": 19.0389,
+    "hit": false,
+    "text": "  The breeze served us admirably.\n\n  The campaign opened with a series of reverses.\n\n  The next ten or twelve pages were filled with a curious set of\n  entries.\n\nBut this device, if too often used, would become a mannerism. More\ncommonly the opening sentence simply indicates by its subject with what\nthe paragraph is to be principally concerned.\n\n  At length I thought I might return towards the stockade.\n\n  He picked up the heavy lamp from the table and began to explore.\n\n  Another flight of steps, and they emerged on the roof.\n\nThe brief paragraphs of animated narrative, however, are often without\neven this semblance of a topic sentence. The break between them serves\nthe purpose of a rhetorical pause, throwing into prominence some detail\nof the action."
+   },
+   {
+    "rank": 3,
+    "id": "C-strunk-elements-of-style-1920-p28-002",
+    "page": 28,
+    "chapter": 3,
+    "score": 16.444,
+    "hit": false,
+    "text": "The principle that the proper place for what is to be made most\nprominent is the end applies equally to the words of a sentence, to the\nsentences of a paragraph, and to the paragraphs of a composition."
+   }
+  ],
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p08-004"
+  ],
+  "context_chars": 716,
+  "hit1": false,
+  "hit3": false,
+  "context_hit": false,
+  "latency_ms": 1.9
+ },
+ {
+  "query_id": "q09",
+  "split": "dev",
+  "config": "bm25",
+  "method": "bm25",
+  "top_k": 3,
+  "budget": 800,
+  "question": "Is it acceptable to write a single sentence as its own paragraph?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "C-strunk-elements-of-style-1920-p09-001",
+    "page": 9,
+    "chapter": 3,
+    "score": 13.9663,
+    "hit": false,
+    "text": "8. Make the paragraph the unit of composition: one paragraph to each\ntopic.\n\nIf the subject on which you are writing is of slight extent, or if you\nintend to treat it very briefly, there may be no need of subdividing it\ninto topics. Thus a brief description, a brief summary of a literary\nwork, a brief account of a single incident, a narrative merely outlining\nan action, the setting forth of a single idea, any one of these is best\nwritten in a single paragraph. After the paragraph has been written,\nexamine it to see whether subdivision will not improve it."
+   },
+   {
+    "rank": 2,
+    "id": "C-strunk-elements-of-style-1920-p11-001",
+    "page": 11,
+    "chapter": 3,
+    "score": 13.6357,
+    "hit": false,
+    "text": "If the paragraph forms part of a larger composition, its relation to\nwhat precedes, or its function as a part of the whole, may need to be\nexpressed. This can sometimes be done by a mere word or phrase (again;\ntherefore; for the same reason) in the topic sentence. Sometimes,\nhowever, it is expedient to precede the topic sentence by one or more\nsentences of introduction or transition. If more than one such sentence\nis required, it is generally better to set apart the transitional\nsentences as a separate paragraph."
+   },
+   {
+    "rank": 3,
+    "id": "C-strunk-elements-of-style-1920-p44-003",
+    "page": 44,
+    "chapter": 6,
+    "score": 12.8957,
+    "hit": false,
+    "text": "Note that a single consonant (other than v) preceded by a stressed\nshort vowel is doubled before -ed and -ing: planned, letting,\nbeginning. (Coming is an exception.)\n\nWrite to-day, to-night, to-morrow (but not together) with a\nhyphen.\n\nWrite any one, every one, some one, some time (except in the\nsense of formerly) as two words."
+   }
+  ],
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p09-001"
+  ],
+  "context_chars": 653,
+  "hit1": false,
+  "hit3": false,
+  "context_hit": false,
+  "latency_ms": 1.3
+ },
+ {
+  "query_id": "q10",
+  "split": "dev",
+  "config": "bm25",
+  "method": "bm25",
+  "top_k": 3,
+  "budget": 800,
+  "question": "When writing dialogue, when should a new paragraph begin?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "C-strunk-elements-of-style-1920-p10-001",
+    "page": 10,
+    "chapter": 3,
+    "score": 15.7937,
+    "hit": true,
+    "text": "In treating either of these last two subjects, the writer would probably\nfind it necessary to subdivide one or more of the topics here given.\n\nAs a rule, single sentences should not be written or printed as\nparagraphs. An exception may be made of sentences of transition,\nindicating the relation between the parts of an exposition or argument.\nFrequent exceptions are also necessary in textbooks, guidebooks, and\nother works in which many topics are treated briefly.\n\nIn dialogue, each speech, even if only a single word, is a paragraph by\nitself; that is, a new paragraph begins with each change of speaker. The\napplication of this rule, when dialogue and narrative are combined, is\nbest learned from examples in well-printed works of fiction."
+   },
+   {
+    "rank": 2,
+    "id": "C-strunk-elements-of-style-1920-p09-002",
+    "page": 9,
+    "chapter": 3,
+    "score": 9.5781,
+    "hit": false,
+    "text": "Ordinarily, however, a subject requires subdivision into topics, each of\nwhich should be made the subject of a paragraph. The object of treating\neach topic in a paragraph by itself is, of course, to aid the reader.\nThe beginning of each paragraph is a signal to him that a new step in\nthe development of the subject has been reached.\n\nThe extent of subdivision will vary with the length of the composition.\nFor example, a short notice of a book or poem might consist of a single\nparagraph. One slightly longer might consist of two paragraphs:\n\n  A. Account of the work.\n  B. Critical discussion.\n\nA report on a poem, written for a class in literature, might consist of\nseven paragraphs:"
+   },
+   {
+    "rank": 3,
+    "id": "C-strunk-elements-of-style-1920-p13-001",
+    "page": 13,
+    "chapter": 3,
+    "score": 8.679,
+    "hit": false,
+    "text": "  1 Topic sentence. 2 The meaning of the topic sentence made clearer;\n  the new conception of history defined. 3 The definition expanded. 4\n  The definition explained by contrast. 5 The definition supplemented:\n  another element in the new conception of history. 6 Conclusion: an\n  important consequence of the new conception of history.\n\nIn narration and description the paragraph sometimes begins with a\nconcise, comprehensive statement serving to hold together the details\nthat follow."
+   }
+  ],
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p09-002"
+  ],
+  "context_chars": 778,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": false,
+  "latency_ms": 0.9
+ },
+ {
+  "query_id": "q11",
+  "split": "dev",
+  "config": "bm25",
+  "method": "bm25",
+  "top_k": 3,
+  "budget": 800,
+  "question": "Does the advice to use the active voice mean the passive voice should never be used?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "C-strunk-elements-of-style-1920-p14-001",
+    "page": 14,
+    "chapter": 3,
+    "score": 35.824,
+    "hit": true,
+    "text": "10. Use the active voice.\n\nThe active voice is usually more direct and vigorous than the passive:\n\n  I shall always remember my first visit to Boston.\n\nThis is much better than\n\n  My first visit to Boston will always be remembered by me.\n\nThe latter sentence is less direct, less bold, and less concise. If the\nwriter tries to make it more concise by omitting \"by me,\"\n\n  My first visit to Boston will always be remembered,\n\nit becomes indefinite: is it the writer, or some person undisclosed, or\nthe world at large, that will always remember this visit?\n\nThis rule does not, of course, mean that the writer should entirely\ndiscard the passive voice, which is frequently convenient and sometimes\nnecessary.\n\n  The dramatists of the Restoration are little esteemed to-day."
+   },
+   {
+    "rank": 2,
+    "id": "C-strunk-elements-of-style-1920-p15-002",
+    "page": 15,
+    "chapter": 3,
+    "score": 24.6236,
+    "hit": false,
+    "text": "The habitual use of the active voice makes for forcible writing. This is\ntrue not only in narrative principally concerned with action, but in\nwriting of any kind. Many a tame sentence of description or exposition\ncan be made lively and emphatic by substituting a verb in the active\nvoice for some such perfunctory expression as there is, or could be\nheard."
+   },
+   {
+    "rank": 3,
+    "id": "C-strunk-elements-of-style-1920-p15-000",
+    "page": 15,
+    "chapter": 3,
+    "score": 19.8233,
+    "hit": false,
+    "text": "  Modern readers have little esteem for the dramatists of the\n  Restoration.\n\nThe first would be the right form in a paragraph on the dramatists of\nthe Restoration; the second, in a paragraph on the tastes of modern\nreaders. The need of making a particular word the subject of the\nsentence will often, as in these examples, determine which voice is to\nbe used.\n\nAs a rule, avoid making one passive depend directly upon another.\n\n  Gold was not allowed to be exported.\n\n    It was forbidden to export gold (The export of gold was prohibited).\n\n  He has been proved to have been seen entering the building.\n\n    It has been proved that he was seen to enter the building.\n\nIn both the examples above, before correction, the word properly related\nto the second passive is made the subject of the first."
+   }
+  ],
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p15-002"
+  ],
+  "context_chars": 449,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": false,
+  "latency_ms": 1.5
+ },
+ {
+  "query_id": "q12",
+  "split": "dev",
+  "config": "bm25",
+  "method": "bm25",
+  "top_k": 3,
+  "budget": 800,
+  "question": "Which expression does the book say should be revised out of every sentence in which it occurs?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "C-strunk-elements-of-style-1920-p19-002",
+    "page": 19,
+    "chapter": 3,
+    "score": 33.5869,
+    "hit": true,
+    "text": "In especial the expression the fact that should be revised out of\nevery sentence in which it occurs.\n\n  owing to the fact that\n\n    since (because)\n\n  in spite of the fact that\n\n    though (although)\n\n  call your attention to the fact that\n\n    remind you (notify you)\n\n  I was unaware of the fact that"
+   },
+   {
+    "rank": 2,
+    "id": "C-strunk-elements-of-style-1920-p24-001",
+    "page": 24,
+    "chapter": 3,
+    "score": 15.5158,
+    "hit": false,
+    "text": "The objection is that the interposed phrase or clause needlessly\ninterrupts the natural order of the main clause. Usually, however, this\nobjection does not hold when the order is interrupted only by a relative\nclause or by an expression in apposition. Nor does it hold in periodic\nsentences in which the interruption is a deliberately used means of\ncreating suspense (see examples under Rule 18).\n\nThe relative pronoun should come, as a rule, immediately after its\nantecedent.\n\n  There was a look in his eye that boded mischief.\n\n    In his eye was a look that boded mischief.\n\n  He wrote three articles about his adventures in Spain, which were\n  published in Harper's Magazine.\n\n    He published in Harper's Magazine three articles about\n    his adventures in Spain."
+   },
+   {
+    "rank": 3,
+    "id": "C-strunk-elements-of-style-1920-p42-008",
+    "page": 42,
+    "chapter": 5,
+    "score": 15.046,
+    "hit": false,
+    "text": "They. A common inaccuracy is the use of the plural pronoun when the\nantecedent is a distributive expression such as each, each one,\neverybody, every one, many a man, which, though implying more than\none person, requires the pronoun to be in the singular. Similar to this,\nbut with even less justification, is the use of the plural pronoun with\nthe antecedent anybody, any one, somebody, some one, the\nintention being either to avoid the awkward \"he or she,\" or to avoid\ncommitting oneself to either. Some bashful speakers even say, \"A friend\nof mine told me that they, etc.\""
+   }
+  ],
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p19-002"
+  ],
+  "context_chars": 395,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "latency_ms": 2.2
+ },
+ {
+  "query_id": "q13",
+  "split": "dev",
+  "config": "bm25",
+  "method": "bm25",
+  "top_k": 3,
+  "budget": 800,
+  "question": "Which tense should be used when summarizing the action of a drama?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "C-strunk-elements-of-style-1920-p26-000",
+    "page": 26,
+    "chapter": 3,
+    "score": 23.7031,
+    "hit": true,
+    "text": "17. In summaries, keep to one tense.\n\nIn summarizing the action of a drama, the writer should always use the\npresent tense. In summarizing a poem, story, or novel, he should\npreferably use the present, though he may use the past if he prefers. If\nthe summary is in the present tense, antecedent action should be\nexpressed by the perfect; if in the past, by the past perfect.\n\n  An unforeseen chance prevents Friar John from delivering Friar\n  Lawrence's letter to Romeo. Meanwhile, owing to her father's arbitrary\n  change of the day set for her wedding, Juliet has been compelled to\n  drink the potion on Tuesday night, with the result that Balthasar\n  informs Romeo of her supposed death before Friar Lawrence learns of\n  the non-delivery of the letter."
+   },
+   {
+    "rank": 2,
+    "id": "C-strunk-elements-of-style-1920-p43-007",
+    "page": 43,
+    "chapter": 5,
+    "score": 15.0738,
+    "hit": false,
+    "text": "Would. A conditional statement in the first person requires should,\nnot would.\n\n  I should not have succeeded without his help.\n\nThe equivalent of shall in indirect quotation after a verb in the past\ntense is should, not would.\n\n  He predicted that before long we should have a great surprise.\n\nTo express habitual or repeated action, the past tense, without would,\nis usually sufficient, and from its brevity, more emphatic.\n\n  Once a year he would visit the old mansion.\n\n    Once a year he visited the old mansion."
+   },
+   {
+    "rank": 3,
+    "id": "C-strunk-elements-of-style-1920-p26-001",
+    "page": 26,
+    "chapter": 3,
+    "score": 14.6433,
+    "hit": false,
+    "text": "But whichever tense be used in the summary, a past tense in indirect\ndiscourse or in indirect question remains unchanged.\n\n  The Friar confesses that it was he who married them.\n\nApart from the exceptions noted, whichever tense the writer chooses, he\nshould use throughout. Shifting from one tense to the other gives the\nappearance of uncertainty and irresolution (compare Rule 15)."
+   }
+  ],
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p43-007"
+  ],
+  "context_chars": 610,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": false,
+  "latency_ms": 1.4
+ },
+ {
+  "query_id": "q14",
+  "split": "dev",
+  "config": "bm25",
+  "method": "bm25",
+  "top_k": 3,
+  "budget": 800,
+  "question": "Looking only in Chapter V (Words and Expressions Commonly Misused): is the word 'data' singular or plural?",
+  "filter": {
+   "chapter": 5
+  },
+  "results": [
+   {
+    "rank": 1,
+    "id": "C-strunk-elements-of-style-1920-p32-000",
+    "page": 32,
+    "chapter": 5,
+    "score": 27.205,
+    "hit": false,
+    "text": "V. WORDS AND EXPRESSIONS COMMONLY MISUSED"
+   },
+   {
+    "rank": 2,
+    "id": "C-strunk-elements-of-style-1920-p34-005",
+    "page": 34,
+    "chapter": 5,
+    "score": 18.2128,
+    "hit": true,
+    "text": "Data. A plural, like phenomena and strata.\n\n  These data were tabulated."
+   },
+   {
+    "rank": 3,
+    "id": "C-strunk-elements-of-style-1920-p42-008",
+    "page": 42,
+    "chapter": 5,
+    "score": 14.8975,
+    "hit": false,
+    "text": "They. A common inaccuracy is the use of the plural pronoun when the\nantecedent is a distributive expression such as each, each one,\neverybody, every one, many a man, which, though implying more than\none person, requires the pronoun to be in the singular. Similar to this,\nbut with even less justification, is the use of the plural pronoun with\nthe antecedent anybody, any one, somebody, some one, the\nintention being either to avoid the awkward \"he or she,\" or to avoid\ncommitting oneself to either. Some bashful speakers even say, \"A friend\nof mine told me that they, etc.\""
+   }
+  ],
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p32-000",
+   "C-strunk-elements-of-style-1920-p34-005"
+  ],
+  "context_chars": 301,
+  "hit1": false,
+  "hit3": true,
+  "context_hit": true,
+  "latency_ms": 2.1
+ },
+ {
+  "query_id": "q15",
+  "split": "dev",
+  "config": "bm25",
+  "method": "bm25",
+  "top_k": 3,
+  "budget": 800,
+  "question": "Looking only in Chapter IV (A Few Matters of Form): how should a sentence containing an expression in parenthesis be punctuated outside the parentheses?",
+  "filter": {
+   "chapter": 4
+  },
+  "results": [
+   {
+    "rank": 1,
+    "id": "C-strunk-elements-of-style-1920-p29-003",
+    "page": 29,
+    "chapter": 4,
+    "score": 43.8977,
+    "hit": true,
+    "text": "Parentheses. A sentence containing an expression in parenthesis is\npunctuated, outside of the marks of parenthesis, exactly as if the\nexpression in parenthesis were absent. The expression within is\npunctuated as if it stood by itself, except that the final stop is\nomitted unless it is a question mark or an exclamation point.\n\n  I went to his house yesterday (my third attempt to see him), but he\n  had left town.\n\n  He declares (and why should we doubt his good faith?) that he is now\n  certain of success.\n\n(When a wholly detached expression or sentence is parenthesized, the\nfinal stop comes before the last mark of parenthesis.)"
+   },
+   {
+    "rank": 2,
+    "id": "C-strunk-elements-of-style-1920-p29-000",
+    "page": 29,
+    "chapter": 4,
+    "score": 28.2209,
+    "hit": false,
+    "text": "IV. A FEW MATTERS OF FORM"
+   },
+   {
+    "rank": 3,
+    "id": "C-strunk-elements-of-style-1920-p30-001",
+    "page": 30,
+    "chapter": 4,
+    "score": 22.5561,
+    "hit": false,
+    "text": "References. In scholarly work requiring exact references, abbreviate\ntitles that occur frequently, giving the full forms in an alphabetical\nlist at the end. As a general practice, give the references in\nparenthesis or in footnotes, not in the body of the sentence. Omit the\nwords act, scene, line, book, volume, page, except when\nreferring by only one of them. Punctuate as indicated below.\n\n  In the second scene of the third act\n\n    In III.ii (still better, simply insert III.ii in\n    parenthesis at the proper place in the sentence)\n\n  After the killing of Polonius, Hamlet is placed under guard (IV.ii.\n  14).\n\n  2 Samuel i:17-27\n\n  Othello II.iii. 264-267, III.iii. 155-161."
+   }
+  ],
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p29-003"
+  ],
+  "context_chars": 726,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "latency_ms": 2.4
+ },
+ {
+  "query_id": "q16",
+  "split": "dev",
+  "config": "bm25",
+  "method": "bm25",
+  "top_k": 3,
+  "budget": 800,
+  "question": "Looking only in Chapter V (Words and Expressions Commonly Misused): in what sense should the word 'while' generally be used?",
+  "filter": {
+   "chapter": 5
+  },
+  "results": [
+   {
+    "rank": 1,
+    "id": "C-strunk-elements-of-style-1920-p32-000",
+    "page": 32,
+    "chapter": 5,
+    "score": 27.205,
+    "hit": false,
+    "text": "V. WORDS AND EXPRESSIONS COMMONLY MISUSED"
+   },
+   {
+    "rank": 2,
+    "id": "C-strunk-elements-of-style-1920-p43-004",
+    "page": 43,
+    "chapter": 5,
+    "score": 14.7124,
+    "hit": true,
+    "text": "  I admire his energy; at the same time I wish it were employed in a\n  better cause.\n\nCompare:\n\n  While the temperature reaches 90 or 95 degrees in the daytime, the\n  nights are often chilly.\n\n    Although the temperature reaches 90 or 95 degrees in the daytime,\n    the nights are often chilly.\n\nThe paraphrase,\n\n  The temperature reaches 90 or 95 degrees in the daytime; at the same\n  time the nights are often chilly,\n\nshows why the use of while is incorrect.\n\nIn general, the writer will do well to use while only with strict\nliteralness, in the sense of during the time that."
+   },
+   {
+    "rank": 3,
+    "id": "C-strunk-elements-of-style-1920-p38-000",
+    "page": 38,
+    "chapter": 5,
+    "score": 13.8437,
+    "hit": false,
+    "text": "Like. Not to be misused for as. Like governs nouns and pronouns;\nbefore phrases and clauses the equivalent word is as.\n\n  We spent the evening like in the old days.\n\n    We spent the evening as in the old days.\n\n  He thought like I did.\n\n    He thought as I did (like me)."
+   }
+  ],
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p32-000",
+   "C-strunk-elements-of-style-1920-p38-000"
+  ],
+  "context_chars": 501,
+  "hit1": false,
+  "hit3": true,
+  "context_hit": false,
+  "latency_ms": 3.1
+ }
+]

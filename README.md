@@ -31,3 +31,38 @@ Index một tài liệu thực tế từ **100 trang** có bảng, ảnh và bi�
 ![Các bước thử nghiệm trên dev và đánh giá trên test](assets/experiment-loop.svg)
 
 Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo](report/individual/MSSV_HoTen.md). Thời gian ở [checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.
+
+---
+
+## Bài làm — Nguyễn Đức Minh (2A202603563)
+
+Agentic RAG trên kho Day 6 (*The Elements of Style*, 188 chunk, Chroma `eos_C`, `all-MiniLM-L6-v2`), agent dùng **Gemini API (free tier)** với function calling.
+
+### Setup (Windows cmd, đặt repo Day 6 cạnh repo này)
+```
+python -m venv .venv && .venv\Scripts\activate
+pip install -r requirements.txt
+copy .env.example .env      # rồi dán GEMINI_API_KEY vào .env (không commit)
+cd ..\<repo Day 6> && python src/run.py && cd ..\<repo Day 7>   # dựng lại chroma_db Day 6
+python src/check_gemini.py
+```
+
+### Chạy
+```
+python src/export_day6.py                       # chunks/questions/cases từ Day 6
+python src/retrieval_eval.py --split dev        # 5 cấu hình retrieval trên dev
+python src/run_agent.py --config dense --split dev
+python src/run_agent.py --config <cấu hình chọn> --split dev
+python src/retrieval_eval.py --split test --configs dense <cấu hình chọn>
+python src/run_agent.py --config dense --split test
+python src/run_agent.py --config <cấu hình chọn> --split test
+python -m unittest discover -s tests -v
+```
+
+| Thư mục | Nội dung |
+|---|---|
+| `src/` | `retrievers.py` (dense / BM25 / hybrid RRF / hybrid + cross-encoder rerank), `agent.py` (Gemini tool loop), `retrieval_eval.py`, `run_agent.py`, `export_day6.py` |
+| `data/` | `chunks.json`, `questions.json` (21 câu có đáp án), `cases.json` (+4 câu thiếu bằng chứng) |
+| `results/retrieval/` | trace và `summary_{dev,test}.csv` |
+| `results/agent/` | trace agent, thống kê, nhãn chấm tay |
+| `report/individual/` | báo cáo |

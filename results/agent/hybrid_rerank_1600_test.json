@@ -1,0 +1,565 @@
+[
+ {
+  "query_id": "q17",
+  "split": "test",
+  "answerable": true,
+  "config": "hybrid_rerank_1600",
+  "method": "rerank",
+  "top_k": 3,
+  "budget": 1600,
+  "question": "Where in a sentence should the words the writer wants to make most prominent usually go?",
+  "context_evidence": true,
+  "answer": "The words a writer desires to make most prominent should usually go at the end of the sentence [C-strunk-elements-of-style-1920-p27-001].",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "method": "rerank",
+    "query": "prominent usually go sentence",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 5232.1,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-strunk-elements-of-style-1920-p27-001",
+      "page": 27,
+      "chapter": 3,
+      "score": 4.1265
+     },
+     {
+      "rank": 2,
+      "id": "C-strunk-elements-of-style-1920-p28-001",
+      "page": 28,
+      "chapter": 3,
+      "score": 2.864
+     },
+     {
+      "rank": 3,
+      "id": "C-strunk-elements-of-style-1920-p28-002",
+      "page": 28,
+      "chapter": 3,
+      "score": 2.02
+     }
+    ],
+    "context_ids": [
+     "C-strunk-elements-of-style-1920-p27-001",
+     "C-strunk-elements-of-style-1920-p28-002"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context": "[C-strunk-elements-of-style-1920-p27-001 | https://www.gutenberg.org/ebooks/37134 | page 27]\n18. Place the emphatic words of a sentence at the end.\n\nThe proper place in the sentence for the word, or group of words, which\nthe writer desires to make most prominent is usually the end.\n\n  Humanity has hardly advanced in fortitude since that time, though it\n  has advanced in many other ways.\n\n    Humanity, since that time, has advanced in many other ways, but it\n    has hardly advanced in fortitude.\n\n  This steel is principally used for making razors, because of its\n  hardness.\n\n    Because of its hardness, this steel is principally used in making\n    razors.\n\nThe word or group of words entitled to this position of prominence is\nusually the logical predicate, that is, the new element in the\nsentence, as it is in the second example.\n\n[C-strunk-elements-of-style-1920-p28-002 | https://www.gutenberg.org/ebooks/37134 | page 28]\nThe principle that the proper place for what is to be made most\nprominent is the end applies equally to the words of a sentence, to the\nsentences of a paragraph, and to the paragraphs of a composition.",
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p27-001",
+   "C-strunk-elements-of-style-1920-p28-002"
+  ],
+  "n_searches": 1,
+  "tokens": {
+   "prompt": 869,
+   "output": 63
+  },
+  "model": "gemini-3.5-flash-lite",
+  "latency_s": 7.8,
+  "status": "answered",
+  "citations": [
+   "C-strunk-elements-of-style-1920-p27-001"
+  ]
+ },
+ {
+  "query_id": "q18",
+  "split": "test",
+  "answerable": true,
+  "config": "hybrid_rerank_1600",
+  "method": "rerank",
+  "top_k": 3,
+  "budget": 1600,
+  "question": "What is the difference between 'less' and 'fewer'?",
+  "context_evidence": true,
+  "answer": "\"Less\" refers to quantity, while \"fewer\" refers to number [C-strunk-elements-of-style-1920-p37-004]. Therefore, \"less\" should not be misused in place of \"fewer\" when referring to countable items, such as men [C-strunk-elements-of-style-1920-p37-003]. However, it is correct to use \"less\" with a round number that functions similarly to a collective noun, such as \"less than a hundred\" [C-strunk-elements-of-style-1920-p37-004].",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "method": "rerank",
+    "query": "less fewer",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 680.1,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-strunk-elements-of-style-1920-p37-004",
+      "page": 37,
+      "chapter": 5,
+      "score": 5.8743
+     },
+     {
+      "rank": 2,
+      "id": "C-strunk-elements-of-style-1920-p37-003",
+      "page": 37,
+      "chapter": 5,
+      "score": 4.1796
+     },
+     {
+      "rank": 3,
+      "id": "C-strunk-elements-of-style-1920-p20-002",
+      "page": 20,
+      "chapter": 3,
+      "score": -5.6604
+     }
+    ],
+    "context_ids": [
+     "C-strunk-elements-of-style-1920-p37-004",
+     "C-strunk-elements-of-style-1920-p37-003",
+     "C-strunk-elements-of-style-1920-p20-002"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context": "[C-strunk-elements-of-style-1920-p37-004 | https://www.gutenberg.org/ebooks/37134 | page 37]\nLess refers to quantity, fewer to number. \"His troubles are less\nthan mine\" means \"His troubles are not so great as mine.\" \"His troubles\nare fewer than mine\" means \"His troubles are not so numerous as mine.\"\nIt is, however, correct to say, \"The signers of the petition were less\nthan a hundred,\" where the round number a hundred is something like a\ncollective noun, and less is thought of as meaning a less quantity or\namount.\n\n[C-strunk-elements-of-style-1920-p37-003 | https://www.gutenberg.org/ebooks/37134 | page 37]\nLess. Should not be misused for fewer.\n\n  He had less men than in the previous campaign\n\n    He had fewer men than in the previous campaign\n\n[C-strunk-elements-of-style-1920-p20-002 | https://www.gutenberg.org/ebooks/37134 | page 20]\n  There were several less important courses, but these were the most\n  important, and although they did not come every day, they came often\n  enough to keep you in such a state of mind that you never knew what\n  your next move would be. (43 words.)",
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p37-004",
+   "C-strunk-elements-of-style-1920-p37-003",
+   "C-strunk-elements-of-style-1920-p20-002"
+  ],
+  "n_searches": 1,
+  "tokens": {
+   "prompt": 885,
+   "output": 162
+  },
+  "model": "gemini-3.5-flash-lite",
+  "latency_s": 10.21,
+  "status": "answered",
+  "citations": [
+   "C-strunk-elements-of-style-1920-p37-004",
+   "C-strunk-elements-of-style-1920-p37-003"
+  ]
+ },
+ {
+  "query_id": "q19",
+  "split": "test",
+  "answerable": true,
+  "config": "hybrid_rerank_1600",
+  "method": "rerank",
+  "top_k": 3,
+  "budget": 1600,
+  "question": "What does 'however' mean when it comes first in its sentence?",
+  "context_evidence": false,
+  "answer": "When *however* means \"nevertheless,\" it should not come first in its sentence or clause [C-strunk-elements-of-style-1920-p36-007].",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "method": "rerank",
+    "query": "however first in its sentence",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 754.5,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-strunk-elements-of-style-1920-p36-007",
+      "page": 36,
+      "chapter": 5,
+      "score": 7.9015
+     },
+     {
+      "rank": 2,
+      "id": "C-strunk-elements-of-style-1920-p28-001",
+      "page": 28,
+      "chapter": 3,
+      "score": 4.8442
+     },
+     {
+      "rank": 3,
+      "id": "C-strunk-elements-of-style-1920-p05-001",
+      "page": 5,
+      "chapter": 2,
+      "score": 1.4444
+     }
+    ],
+    "context_ids": [
+     "C-strunk-elements-of-style-1920-p36-007",
+     "C-strunk-elements-of-style-1920-p28-001"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context": "[C-strunk-elements-of-style-1920-p36-007 | https://www.gutenberg.org/ebooks/37134 | page 36]\nHowever. In the meaning nevertheless, not to come first in its\nsentence or clause.\n\n  The roads were almost impassable. However, we at last succeeded in\n  reaching camp.\n\n[C-strunk-elements-of-style-1920-p28-001 | https://www.gutenberg.org/ebooks/37134 | page 28]\nThe other prominent position in the sentence is the beginning. Any\nelement in the sentence, other than the subject, may become emphatic\nwhen placed first.\n\n  Deceit or treachery he could never forgive.\n\n  So vast and rude, fretted by the action of nearly three thousand\n  years, the fragments of this architecture may often seem, at first\n  sight, like works of nature.\n\nA subject coming first in its sentence may be emphatic, but hardly by\nits position alone. In the sentence,\n\n  Great kings worshipped at his shrine,\n\nthe emphasis upon kings arises largely from its meaning and from the\ncontext. To receive special emphasis, the subject of a sentence must\ntake the position of the predicate.\n\n  Through the middle of the valley flowed a winding stream.",
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p36-007",
+   "C-strunk-elements-of-style-1920-p28-001"
+  ],
+  "n_searches": 1,
+  "tokens": {
+   "prompt": 852,
+   "output": 64
+  },
+  "model": "gemini-3.5-flash-lite",
+  "latency_s": 9.62,
+  "status": "answered",
+  "citations": [
+   "C-strunk-elements-of-style-1920-p36-007"
+  ]
+ },
+ {
+  "query_id": "q20",
+  "split": "test",
+  "answerable": true,
+  "config": "hybrid_rerank_1600",
+  "method": "rerank",
+  "top_k": 3,
+  "budget": 1600,
+  "question": "Looking only in Chapter VI (Spelling): should 'to-day', 'to-night' and 'to-morrow' be written with a hyphen?",
+  "context_evidence": true,
+  "answer": "Yes, \"to-day\", \"to-night\", and \"to-morrow\" should be written with a hyphen [C-strunk-elements-of-style-1920-p44-003].",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "method": "rerank",
+    "query": "to-day to-night to-morrow hyphen spelling",
+    "filter": {
+     "chapter": 6
+    },
+    "top_k": 3,
+    "latency_ms": 176.9,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-strunk-elements-of-style-1920-p44-003",
+      "page": 44,
+      "chapter": 6,
+      "score": 6.8471
+     },
+     {
+      "rank": 2,
+      "id": "C-strunk-elements-of-style-1920-p44-000",
+      "page": 44,
+      "chapter": 6,
+      "score": -10.9291
+     },
+     {
+      "rank": 3,
+      "id": "C-strunk-elements-of-style-1920-p44-001",
+      "page": 44,
+      "chapter": 6,
+      "score": -10.9659
+     }
+    ],
+    "context_ids": [
+     "C-strunk-elements-of-style-1920-p44-003",
+     "C-strunk-elements-of-style-1920-p44-000"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context": "[C-strunk-elements-of-style-1920-p44-003 | https://www.gutenberg.org/ebooks/37134 | page 44]\nNote that a single consonant (other than v) preceded by a stressed\nshort vowel is doubled before -ed and -ing: planned, letting,\nbeginning. (Coming is an exception.)\n\nWrite to-day, to-night, to-morrow (but not together) with a\nhyphen.\n\nWrite any one, every one, some one, some time (except in the\nsense of formerly) as two words.\n\n[C-strunk-elements-of-style-1920-p44-000 | https://www.gutenberg.org/ebooks/37134 | page 44]\nVI. SPELLING\n\nThe spelling of English words is not fixed and invariable, nor does it\ndepend on any other authority than general agreement. At the present day\nthere is practically unanimous agreement as to the spelling of most\nwords. In the list below, for example, rime for rhyme is the only\nallowable variation; all the other forms are co-extensive with the\nEnglish language. At any given moment, however, a relatively small\nnumber of words may be spelled in more than one way. Gradually, as a\nrule, one of these forms comes to be generally preferred, and the less\ncustomary form comes to look obsolete and is discarded. From time to\ntime new forms, mostly simplifications, are introduced by innovators,\nand either win their place or die of neglect.",
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p44-003",
+   "C-strunk-elements-of-style-1920-p44-000"
+  ],
+  "n_searches": 1,
+  "tokens": {
+   "prompt": 972,
+   "output": 75
+  },
+  "model": "gemini-3.5-flash-lite",
+  "latency_s": 10.2,
+  "status": "answered",
+  "citations": [
+   "C-strunk-elements-of-style-1920-p44-003"
+  ]
+ },
+ {
+  "query_id": "q21",
+  "split": "test",
+  "answerable": true,
+  "config": "hybrid_rerank_1600",
+  "method": "rerank",
+  "top_k": 3,
+  "budget": 1600,
+  "question": "If an article or preposition applies to every member of a series, where should it be placed?",
+  "context_evidence": true,
+  "answer": "An article or preposition applying to all the members of a series must either be used only before the first term or else be repeated before each term [C-strunk-elements-of-style-1920-p23-000].",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "method": "rerank",
+    "query": "article preposition series",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 1100.7,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-strunk-elements-of-style-1920-p23-000",
+      "page": 23,
+      "chapter": 3,
+      "score": 5.3957
+     },
+     {
+      "rank": 2,
+      "id": "C-strunk-elements-of-style-1920-p02-002",
+      "page": 2,
+      "chapter": 2,
+      "score": -7.5714
+     },
+     {
+      "rank": 3,
+      "id": "C-strunk-elements-of-style-1920-p08-003",
+      "page": 8,
+      "chapter": 2,
+      "score": -8.4253
+     }
+    ],
+    "context_ids": [
+     "C-strunk-elements-of-style-1920-p23-000",
+     "C-strunk-elements-of-style-1920-p02-002"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context": "[C-strunk-elements-of-style-1920-p23-000 | https://www.gutenberg.org/ebooks/37134 | page 23]\nBy this principle, an article or a preposition applying to all the\nmembers of a series must either be used only before the first term or\nelse be repeated before each term.\n\n  The French, the Italians, Spanish, and Portuguese\n\n    The French, the Italians, the Spanish, and the Portuguese\n\n  In spring, summer, or in winter\n\n    In spring, summer, or winter (In spring, in summer, or in winter)\n\n[C-strunk-elements-of-style-1920-p02-002 | https://www.gutenberg.org/ebooks/37134 | page 2]\n2. In a series of three or more terms with a single conjunction, use a\ncomma after each term except the last.\n\nThus write,\n\n  red, white, and blue\n\n  gold, silver, or copper\n\n  He opened the letter, read it, and made a note of its contents.\n\nThis is also the usage of the Government Printing Office and of the\nOxford University Press.\n\nIn the names of business firms the last comma is omitted, as,\n\n  Brown, Shipley & Co.",
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p23-000",
+   "C-strunk-elements-of-style-1920-p02-002"
+  ],
+  "n_searches": 1,
+  "tokens": {
+   "prompt": 854,
+   "output": 71
+  },
+  "model": "gemini-3.5-flash-lite",
+  "latency_s": 10.25,
+  "status": "answered",
+  "citations": [
+   "C-strunk-elements-of-style-1920-p23-000"
+  ]
+ },
+ {
+  "query_id": "u03",
+  "split": "test",
+  "answerable": false,
+  "config": "hybrid_rerank_1600",
+  "method": "rerank",
+  "top_k": 3,
+  "budget": 1600,
+  "question": "Should numbers under ten be spelled out in words?",
+  "context_evidence": null,
+  "answer": "INSUFFICIENT_EVIDENCE: The book does not contain information on whether numbers under ten should be spelled out in words.",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "method": "rerank",
+    "query": "numbers under ten spelled out",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 966.4,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-strunk-elements-of-style-1920-p29-002",
+      "page": 29,
+      "chapter": 4,
+      "score": -1.6699
+     },
+     {
+      "rank": 2,
+      "id": "C-strunk-elements-of-style-1920-p44-000",
+      "page": 44,
+      "chapter": 6,
+      "score": -7.3253
+     },
+     {
+      "rank": 3,
+      "id": "C-strunk-elements-of-style-1920-p01-002",
+      "page": 1,
+      "chapter": 1,
+      "score": -7.775
+     }
+    ],
+    "context_ids": [
+     "C-strunk-elements-of-style-1920-p29-002",
+     "C-strunk-elements-of-style-1920-p44-000",
+     "C-strunk-elements-of-style-1920-p01-002"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "method": "rerank",
+    "query": "numbers",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 644.9,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-strunk-elements-of-style-1920-p29-002",
+      "page": 29,
+      "chapter": 4,
+      "score": 0.1368
+     },
+     {
+      "rank": 2,
+      "id": "C-strunk-elements-of-style-1920-p37-004",
+      "page": 37,
+      "chapter": 5,
+      "score": -2.0148
+     },
+     {
+      "rank": 3,
+      "id": "C-strunk-elements-of-style-1920-p01-002",
+      "page": 1,
+      "chapter": 1,
+      "score": -2.6214
+     }
+    ],
+    "context_ids": [
+     "C-strunk-elements-of-style-1920-p29-002",
+     "C-strunk-elements-of-style-1920-p44-000",
+     "C-strunk-elements-of-style-1920-p01-002"
+    ]
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "context": "[C-strunk-elements-of-style-1920-p29-002 | https://www.gutenberg.org/ebooks/37134 | page 29]\nNumerals. Do not spell out dates or other serial numbers. Write them\nin figures or in Roman notation, as may be appropriate.\n\n  August 9, 1918 (9 August 1918)\n\n  Rule 3\n\n  Chapter XII\n\n  352nd Infantry\n\n[C-strunk-elements-of-style-1920-p44-000 | https://www.gutenberg.org/ebooks/37134 | page 44]\nVI. SPELLING\n\nThe spelling of English words is not fixed and invariable, nor does it\ndepend on any other authority than general agreement. At the present day\nthere is practically unanimous agreement as to the spelling of most\nwords. In the list below, for example, rime for rhyme is the only\nallowable variation; all the other forms are co-extensive with the\nEnglish language. At any given moment, however, a relatively small\nnumber of words may be spelled in more than one way. Gradually, as a\nrule, one of these forms comes to be generally preferred, and the less\ncustomary form comes to look obsolete and is discarded. From time to\ntime new forms, mostly simplifications, are introduced by innovators,\nand either win their place or die of neglect.\n\n[C-strunk-elements-of-style-1920-p01-002 | https://www.gutenberg.org/ebooks/37134 | page 1]\nThe numbers of the sections may be used as references in correcting\nmanuscript.\n\nThe writer's colleagues in the Department of English in Cornell\nUniversity have greatly helped him in the preparation of his manuscript.\nMr. George McLane Wood has kindly consented to the inclusion under\nRule 10 of some material from his Suggestions to Authors.",
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p29-002",
+   "C-strunk-elements-of-style-1920-p44-000",
+   "C-strunk-elements-of-style-1920-p01-002"
+  ],
+  "n_searches": 2,
+  "tokens": {
+   "prompt": 2207,
+   "output": 62
+  },
+  "model": "gemini-3.5-flash-lite",
+  "latency_s": 14.56,
+  "status": "abstain",
+  "citations": []
+ },
+ {
+  "query_id": "u04",
+  "split": "test",
+  "answerable": false,
+  "config": "hybrid_rerank_1600",
+  "method": "rerank",
+  "top_k": 3,
+  "budget": 1600,
+  "question": "How should a website or an online article be cited in the references?",
+  "context_evidence": null,
+  "answer": "INSUFFICIENT_EVIDENCE: The book does not contain instructions on how to cite a website or an online article.",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "method": "rerank",
+    "query": "website online article citation references",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 965.2,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-strunk-elements-of-style-1920-p30-001",
+      "page": 30,
+      "chapter": 4,
+      "score": -3.3411
+     },
+     {
+      "rank": 2,
+      "id": "C-strunk-elements-of-style-1920-p01-003",
+      "page": 1,
+      "chapter": 1,
+      "score": -6.407
+     },
+     {
+      "rank": 3,
+      "id": "C-strunk-elements-of-style-1920-p01-002",
+      "page": 1,
+      "chapter": 1,
+      "score": -7.2741
+     }
+    ],
+    "context_ids": [
+     "C-strunk-elements-of-style-1920-p30-001",
+     "C-strunk-elements-of-style-1920-p01-002"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "method": "rerank",
+    "query": "website internet online",
+    "filter": null,
+    "top_k": 3,
+    "latency_ms": 907.6,
+    "results": [
+     {
+      "rank": 1,
+      "id": "C-strunk-elements-of-style-1920-p36-006",
+      "page": 36,
+      "chapter": 5,
+      "score": -10.3849
+     },
+     {
+      "rank": 2,
+      "id": "C-strunk-elements-of-style-1920-p01-003",
+      "page": 1,
+      "chapter": 1,
+      "score": -10.4964
+     },
+     {
+      "rank": 3,
+      "id": "C-strunk-elements-of-style-1920-p01-000",
+      "page": 1,
+      "chapter": 1,
+      "score": -10.6522
+     }
+    ],
+    "context_ids": [
+     "C-strunk-elements-of-style-1920-p30-001",
+     "C-strunk-elements-of-style-1920-p01-002",
+     "C-strunk-elements-of-style-1920-p36-006",
+     "C-strunk-elements-of-style-1920-p01-000"
+    ]
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "context": "[C-strunk-elements-of-style-1920-p30-001 | https://www.gutenberg.org/ebooks/37134 | page 30]\nReferences. In scholarly work requiring exact references, abbreviate\ntitles that occur frequently, giving the full forms in an alphabetical\nlist at the end. As a general practice, give the references in\nparenthesis or in footnotes, not in the body of the sentence. Omit the\nwords act, scene, line, book, volume, page, except when\nreferring by only one of them. Punctuate as indicated below.\n\n  In the second scene of the third act\n\n    In III.ii (still better, simply insert III.ii in\n    parenthesis at the proper place in the sentence)\n\n  After the killing of Polonius, Hamlet is placed under guard (IV.ii.\n  14).\n\n  2 Samuel i:17-27\n\n  Othello II.iii. 264-267, III.iii. 155-161.\n\n[C-strunk-elements-of-style-1920-p01-002 | https://www.gutenberg.org/ebooks/37134 | page 1]\nThe numbers of the sections may be used as references in correcting\nmanuscript.\n\nThe writer's colleagues in the Department of English in Cornell\nUniversity have greatly helped him in the preparation of his manuscript.\nMr. George McLane Wood has kindly consented to the inclusion under\nRule 10 of some material from his Suggestions to Authors.\n\n[C-strunk-elements-of-style-1920-p36-006 | https://www.gutenberg.org/ebooks/37134 | page 36]\nHelp. See under But.\n\n[C-strunk-elements-of-style-1920-p01-000 | https://www.gutenberg.org/ebooks/37134 | page 1]\nI. INTRODUCTORY",
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p30-001",
+   "C-strunk-elements-of-style-1920-p01-002",
+   "C-strunk-elements-of-style-1920-p36-006",
+   "C-strunk-elements-of-style-1920-p01-000"
+  ],
+  "n_searches": 2,
+  "tokens": {
+   "prompt": 2076,
+   "output": 63
+  },
+  "model": "gemini-3.5-flash-lite",
+  "latency_s": 15.05,
+  "status": "abstain",
+  "citations": []
+ }
+]

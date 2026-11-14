@@ -1,0 +1,94 @@
+[
+ {
+  "query_id": "q17",
+  "answerable": true,
+  "status": "answered",
+  "answer": "The words a writer desires to make most prominent should usually go at the end of the sentence [C-strunk-elements-of-style-1920-p27-001].",
+  "citations": [
+   "C-strunk-elements-of-style-1920-p27-001"
+  ],
+  "citation_support": [
+   null
+  ],
+  "answer_grade": null,
+  "reason": ""
+ },
+ {
+  "query_id": "q18",
+  "answerable": true,
+  "status": "answered",
+  "answer": "\"Less\" refers to quantity, while \"fewer\" refers to number [C-strunk-elements-of-style-1920-p37-004]. Therefore, \"less\" should not be misused in place of \"fewer\" when referring to countable items, such as men [C-strunk-elements-of-style-1920-p37-003]. However, it is correct to use \"less\" with a round number that functions similarly to a collective noun, such as \"less than a hundred\" [C-strunk-elements-of-style-1920-p37-004].",
+  "citations": [
+   "C-strunk-elements-of-style-1920-p37-004",
+   "C-strunk-elements-of-style-1920-p37-003"
+  ],
+  "citation_support": [
+   null,
+   null
+  ],
+  "answer_grade": null,
+  "reason": ""
+ },
+ {
+  "query_id": "q19",
+  "answerable": true,
+  "status": "answered",
+  "answer": "When *however* means \"nevertheless,\" it should not come first in its sentence or clause [C-strunk-elements-of-style-1920-p36-007].",
+  "citations": [
+   "C-strunk-elements-of-style-1920-p36-007"
+  ],
+  "citation_support": [
+   null
+  ],
+  "answer_grade": null,
+  "reason": ""
+ },
+ {
+  "query_id": "q20",
+  "answerable": true,
+  "status": "answered",
+  "answer": "Yes, \"to-day\", \"to-night\", and \"to-morrow\" should be written with a hyphen [C-strunk-elements-of-style-1920-p44-003].",
+  "citations": [
+   "C-strunk-elements-of-style-1920-p44-003"
+  ],
+  "citation_support": [
+   null
+  ],
+  "answer_grade": null,
+  "reason": ""
+ },
+ {
+  "query_id": "q21",
+  "answerable": true,
+  "status": "answered",
+  "answer": "An article or preposition applying to all the members of a series must either be used only before the first term or else be repeated before each term [C-strunk-elements-of-style-1920-p23-000].",
+  "citations": [
+   "C-strunk-elements-of-style-1920-p23-000"
+  ],
+  "citation_support": [
+   null
+  ],
+  "answer_grade": null,
+  "reason": ""
+ },
+ {
+  "query_id": "u03",
+  "answerable": false,
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: The book does not contain information on whether numbers under ten should be spelled out in words.",
+  "citations": [],
+  "citation_support": [],
+  "abstention_correct": null,
+  "reason": ""
+ },
+ {
+  "query_id": "u04",
+  "answerable": false,
+  "status": "abstain",
+  "answer": "INSUFFICIENT_EVIDENCE: The book does not contain instructions on how to cite a website or an online article.",
+  "citations": [],
+  "citation_support": [],
+  "abstention_correct": null,
+  "reason": ""
+ }
+]

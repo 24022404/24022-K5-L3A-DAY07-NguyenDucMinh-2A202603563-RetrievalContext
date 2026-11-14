@@ -1,0 +1,246 @@
+[
+ {
+  "query_id": "q17",
+  "split": "test",
+  "config": "hybrid_rerank_1600",
+  "method": "rerank",
+  "top_k": 3,
+  "budget": 1600,
+  "question": "Where in a sentence should the words the writer wants to make most prominent usually go?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "C-strunk-elements-of-style-1920-p27-001",
+    "page": 27,
+    "chapter": 3,
+    "score": 7.4438,
+    "hit": true,
+    "text": "18. Place the emphatic words of a sentence at the end.\n\nThe proper place in the sentence for the word, or group of words, which\nthe writer desires to make most prominent is usually the end.\n\n  Humanity has hardly advanced in fortitude since that time, though it\n  has advanced in many other ways.\n\n    Humanity, since that time, has advanced in many other ways, but it\n    has hardly advanced in fortitude.\n\n  This steel is principally used for making razors, because of its\n  hardness.\n\n    Because of its hardness, this steel is principally used in making\n    razors.\n\nThe word or group of words entitled to this position of prominence is\nusually the logical predicate, that is, the new element in the\nsentence, as it is in the second example."
+   },
+   {
+    "rank": 2,
+    "id": "C-strunk-elements-of-style-1920-p28-002",
+    "page": 28,
+    "chapter": 3,
+    "score": 4.6965,
+    "hit": false,
+    "text": "The principle that the proper place for what is to be made most\nprominent is the end applies equally to the words of a sentence, to the\nsentences of a paragraph, and to the paragraphs of a composition."
+   },
+   {
+    "rank": 3,
+    "id": "C-strunk-elements-of-style-1920-p19-001",
+    "page": 19,
+    "chapter": 3,
+    "score": -0.4453,
+    "hit": false,
+    "text": "13. Omit needless words.\n\nVigorous writing is concise. A sentence should contain no unnecessary\nwords, a paragraph no unnecessary sentences, for the same reason that a\ndrawing should have no unnecessary lines and a machine no unnecessary\nparts. This requires not that the writer make all his sentences short,\nor that he avoid all detail and treat his subjects only in outline, but\nthat he make every word tell.\n\nMany expressions in common use violate this principle:\n\n  the question as to whether\n\n    whether (the question whether)\n\n  there is no doubt but that\n\n    no doubt (doubtless)\n\n  used for fuel purposes\n\n    used for fuel\n\n  he is a man who\n\n    he\n\n  in a hasty manner\n\n    hastily\n\n  this is a subject which\n\n    this subject\n\n  His story is a strange one.\n\n    His story is strange."
+   }
+  ],
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p27-001",
+   "C-strunk-elements-of-style-1920-p28-002"
+  ],
+  "context_chars": 1134,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "latency_ms": 1347.1
+ },
+ {
+  "query_id": "q18",
+  "split": "test",
+  "config": "hybrid_rerank_1600",
+  "method": "rerank",
+  "top_k": 3,
+  "budget": 1600,
+  "question": "What is the difference between 'less' and 'fewer'?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "C-strunk-elements-of-style-1920-p37-004",
+    "page": 37,
+    "chapter": 5,
+    "score": 6.9454,
+    "hit": true,
+    "text": "Less refers to quantity, fewer to number. \"His troubles are less\nthan mine\" means \"His troubles are not so great as mine.\" \"His troubles\nare fewer than mine\" means \"His troubles are not so numerous as mine.\"\nIt is, however, correct to say, \"The signers of the petition were less\nthan a hundred,\" where the round number a hundred is something like a\ncollective noun, and less is thought of as meaning a less quantity or\namount."
+   },
+   {
+    "rank": 2,
+    "id": "C-strunk-elements-of-style-1920-p37-003",
+    "page": 37,
+    "chapter": 5,
+    "score": 1.6481,
+    "hit": false,
+    "text": "Less. Should not be misused for fewer.\n\n  He had less men than in the previous campaign\n\n    He had fewer men than in the previous campaign"
+   },
+   {
+    "rank": 3,
+    "id": "C-strunk-elements-of-style-1920-p38-003",
+    "page": 38,
+    "chapter": 5,
+    "score": -5.5969,
+    "hit": false,
+    "text": "Lose out. Meant to be more emphatic than lose, but actually less so,\nbecause of its commonness. The same holds true of try out, win out,\nsign up, register up. With a number of verbs, out and up form\nidiomatic combinations: find out, run out, turn out, cheer up,\ndry up, make up, and others, each distinguishable in meaning from\nthe simple verb. Lose out is not."
+   }
+  ],
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p37-004",
+   "C-strunk-elements-of-style-1920-p37-003",
+   "C-strunk-elements-of-style-1920-p38-003"
+  ],
+  "context_chars": 1209,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "latency_ms": 735.7
+ },
+ {
+  "query_id": "q19",
+  "split": "test",
+  "config": "hybrid_rerank_1600",
+  "method": "rerank",
+  "top_k": 3,
+  "budget": 1600,
+  "question": "What does 'however' mean when it comes first in its sentence?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "C-strunk-elements-of-style-1920-p36-007",
+    "page": 36,
+    "chapter": 5,
+    "score": 7.7531,
+    "hit": false,
+    "text": "However. In the meaning nevertheless, not to come first in its\nsentence or clause.\n\n  The roads were almost impassable. However, we at last succeeded in\n  reaching camp."
+   },
+   {
+    "rank": 2,
+    "id": "C-strunk-elements-of-style-1920-p37-000",
+    "page": 37,
+    "chapter": 5,
+    "score": 4.2653,
+    "hit": true,
+    "text": "    The roads were almost impassable. At last, however, we succeeded in\n    reaching camp.\n\nWhen however comes first, it means in whatever way or to whatever\nextent.\n\n  However you advise him, he will probably do as he thinks best.\n\n  However discouraging the prospect, he never lost heart."
+   },
+   {
+    "rank": 3,
+    "id": "C-strunk-elements-of-style-1920-p28-001",
+    "page": 28,
+    "chapter": 3,
+    "score": 2.1696,
+    "hit": false,
+    "text": "The other prominent position in the sentence is the beginning. Any\nelement in the sentence, other than the subject, may become emphatic\nwhen placed first.\n\n  Deceit or treachery he could never forgive.\n\n  So vast and rude, fretted by the action of nearly three thousand\n  years, the fragments of this architecture may often seem, at first\n  sight, like works of nature.\n\nA subject coming first in its sentence may be emphatic, but hardly by\nits position alone. In the sentence,\n\n  Great kings worshipped at his shrine,\n\nthe emphasis upon kings arises largely from its meaning and from the\ncontext. To receive special emphasis, the subject of a sentence must\ntake the position of the predicate.\n\n  Through the middle of the valley flowed a winding stream."
+   }
+  ],
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p36-007",
+   "C-strunk-elements-of-style-1920-p37-000",
+   "C-strunk-elements-of-style-1920-p28-001"
+  ],
+  "context_chars": 1496,
+  "hit1": false,
+  "hit3": true,
+  "context_hit": true,
+  "latency_ms": 792.3
+ },
+ {
+  "query_id": "q20",
+  "split": "test",
+  "config": "hybrid_rerank_1600",
+  "method": "rerank",
+  "top_k": 3,
+  "budget": 1600,
+  "question": "Looking only in Chapter VI (Spelling): should 'to-day', 'to-night' and 'to-morrow' be written with a hyphen?",
+  "filter": {
+   "chapter": 6
+  },
+  "results": [
+   {
+    "rank": 1,
+    "id": "C-strunk-elements-of-style-1920-p44-003",
+    "page": 44,
+    "chapter": 6,
+    "score": 1.9444,
+    "hit": true,
+    "text": "Note that a single consonant (other than v) preceded by a stressed\nshort vowel is doubled before -ed and -ing: planned, letting,\nbeginning. (Coming is an exception.)\n\nWrite to-day, to-night, to-morrow (but not together) with a\nhyphen.\n\nWrite any one, every one, some one, some time (except in the\nsense of formerly) as two words."
+   },
+   {
+    "rank": 2,
+    "id": "C-strunk-elements-of-style-1920-p44-000",
+    "page": 44,
+    "chapter": 6,
+    "score": -6.0097,
+    "hit": false,
+    "text": "VI. SPELLING\n\nThe spelling of English words is not fixed and invariable, nor does it\ndepend on any other authority than general agreement. At the present day\nthere is practically unanimous agreement as to the spelling of most\nwords. In the list below, for example, rime for rhyme is the only\nallowable variation; all the other forms are co-extensive with the\nEnglish language. At any given moment, however, a relatively small\nnumber of words may be spelled in more than one way. Gradually, as a\nrule, one of these forms comes to be generally preferred, and the less\ncustomary form comes to look obsolete and is discarded. From time to\ntime new forms, mostly simplifications, are introduced by innovators,\nand either win their place or die of neglect."
+   },
+   {
+    "rank": 3,
+    "id": "C-strunk-elements-of-style-1920-p44-001",
+    "page": 44,
+    "chapter": 6,
+    "score": -9.0302,
+    "hit": false,
+    "text": "The practical objection to unaccepted and over-simplified spellings is\nthe disfavor with which they are received by the reader. They distract\nhis attention and exhaust his patience. He reads the form though\nautomatically, without thought of its needless complexity; he reads the\nabbreviation tho and mentally supplies the missing letters, at the\ncost of a fraction of his attention. The writer has defeated his own\npurpose.\n\nWORDS OFTEN MISSPELLED"
+   }
+  ],
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p44-003",
+   "C-strunk-elements-of-style-1920-p44-000"
+  ],
+  "context_chars": 1267,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "latency_ms": 179.4
+ },
+ {
+  "query_id": "q21",
+  "split": "test",
+  "config": "hybrid_rerank_1600",
+  "method": "rerank",
+  "top_k": 3,
+  "budget": 1600,
+  "question": "If an article or preposition applies to every member of a series, where should it be placed?",
+  "filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "C-strunk-elements-of-style-1920-p23-000",
+    "page": 23,
+    "chapter": 3,
+    "score": 7.0357,
+    "hit": true,
+    "text": "By this principle, an article or a preposition applying to all the\nmembers of a series must either be used only before the first term or\nelse be repeated before each term.\n\n  The French, the Italians, Spanish, and Portuguese\n\n    The French, the Italians, the Spanish, and the Portuguese\n\n  In spring, summer, or in winter\n\n    In spring, summer, or winter (In spring, in summer, or in winter)"
+   },
+   {
+    "rank": 2,
+    "id": "C-strunk-elements-of-style-1920-p06-000",
+    "page": 6,
+    "chapter": 2,
+    "score": -4.4792,
+    "hit": false,
+    "text": "If the second member is introduced by an adverb, a semicolon, not a\ncomma, is required (see Rule 5). The connectives so and yet may be\nused either as adverbs or as conjunctions, accordingly as the second\nclause is felt to be co-ordinate or subordinate; consequently either\nmark of punctuation may be justified. But these uses of so (equivalent\nto accordingly or to so that) are somewhat colloquial and should, as\na rule, be avoided in writing. A simple correction, usually serviceable,\nis to omit the word so and begin the first clause with as or\nsince:\n\n  I had never been in the place before; so I had difficulty in finding\n  my way about.\n\n    As I had never been in the place before, I had difficulty in finding\n    my way about."
+   },
+   {
+    "rank": 3,
+    "id": "C-strunk-elements-of-style-1920-p21-001",
+    "page": 21,
+    "chapter": 3,
+    "score": -8.6409,
+    "hit": false,
+    "text": "14. Avoid a succession of loose sentences:\n\nThis rule refers especially to loose sentences of a particular type,\nthose consisting of two co-ordinate clauses, the second introduced by a\nconjunction or relative. Although single sentences of this type may be\nunexceptionable (see under Rule 4), a series soon becomes monotonous and\ntedious.\n\nAn unskilful writer will sometimes construct a whole paragraph of\nsentences of this kind, using as connectives and, but, so, and\nless frequently, who, which, when, where, and while, these\nlast in non-restrictive senses (see under Rule 3)."
+   }
+  ],
+  "context_ids": [
+   "C-strunk-elements-of-style-1920-p23-000",
+   "C-strunk-elements-of-style-1920-p06-000"
+  ],
+  "context_chars": 1313,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "latency_ms": 781.6
+ }
+]
