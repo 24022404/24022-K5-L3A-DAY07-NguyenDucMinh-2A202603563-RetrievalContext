@@ -1,94 +1,55 @@
 [
  {
   "query_id": "q17",
-  "answerable": true,
-  "status": "answered",
-  "answer": "The words a writer wants to make most prominent should usually go at the end of a sentence [C-strunk-elements-of-style-1920-p28-002]. This principle also applies to the sentences of a paragraph and the paragraphs of a composition [C-strunk-elements-of-style-1920-p28-002].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p28-002"
-  ],
   "citation_support": [
-   null
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Đúng (cuối câu); p28-002 là bằng chứng tương đương câu gold ở p27",
+  "answer_grade": 2
  },
  {
   "query_id": "q18",
-  "answerable": true,
-  "status": "answered",
-  "answer": "\"Less\" refers to quantity, while \"fewer\" refers to number [C-strunk-elements-of-style-1920-p37-004]. Therefore, \"less\" should not be misused in place of \"fewer\" when referring to countable items, such as men [C-strunk-elements-of-style-1920-p37-003, C-strunk-elements-of-style-1920-p37-004].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p37-004"
-  ],
   "citation_support": [
-   null
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Đúng less/fewer",
+  "answer_grade": 2
  },
  {
   "query_id": "q19",
-  "answerable": true,
-  "status": "answered",
-  "answer": "When *however* comes first in its sentence, it means \"in whatever way\" or \"to whatever extent\" [C-strunk-elements-of-style-1920-p37-000]. It should not be placed first in its sentence or clause when used in the sense of \"nevertheless\" [C-strunk-elements-of-style-1920-p36-007].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p37-000",
-   "C-strunk-elements-of-style-1920-p36-007"
-  ],
   "citation_support": [
-   null,
-   null
+   true,
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Đúng: in whatever way / to whatever extent, kèm ngữ cảnh",
+  "answer_grade": 2
  },
  {
   "query_id": "q20",
-  "answerable": true,
-  "status": "answered",
-  "answer": "Yes, \"to-day\", \"to-night\", and \"to-morrow\" should be written with a hyphen [C-strunk-elements-of-style-1920-p44-003].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p44-003"
-  ],
   "citation_support": [
-   null
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Đúng, có gạch nối",
+  "answer_grade": 2
  },
  {
   "query_id": "q21",
-  "answerable": true,
-  "status": "answered",
-  "answer": "An article or preposition applying to all the members of a series must either be used only before the first term or else be repeated before each term [C-strunk-elements-of-style-1920-p23-000].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p23-000"
-  ],
   "citation_support": [
-   null
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Đúng",
+  "answer_grade": 2
  },
  {
   "query_id": "u03",
-  "answerable": false,
-  "status": "abstain",
-  "answer": "INSUFFICIENT_EVIDENCE: The book does not mention whether numbers under ten should be spelled out in words.",
-  "citations": [],
   "citation_support": [],
-  "abstention_correct": null,
-  "reason": ""
+  "reason": "Từ chối đúng, không bịa quy tắc số",
+  "abstention_correct": true
  },
  {
   "query_id": "u04",
-  "answerable": false,
-  "status": "abstain",
-  "answer": "INSUFFICIENT_EVIDENCE: The book does not contain information about citing a website or an online article.",
-  "citations": [],
   "citation_support": [],
-  "abstention_correct": null,
-  "reason": ""
+  "reason": "Từ chối đúng",
+  "abstention_correct": true
  }
 ]

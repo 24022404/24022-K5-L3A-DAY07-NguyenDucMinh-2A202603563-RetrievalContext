@@ -1,156 +1,124 @@
 [
  {
   "query_id": "q01",
-  "answerable": true,
-  "status": "answered",
-  "answer": "The possessive singular of a noun is formed by adding 's, regardless of the final consonant, as seen in examples like *Charles's* and *Burns's* [C-strunk-elements-of-style-1920-p02-001]. Exceptions to this rule include the possessive of ancient proper names ending in *-es* and *-is*, *Jesus'*, and expressions like *for conscience' sake* [C-strunk-elements-of-style-1920-p02-001].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p02-001"
-  ],
   "citation_support": [
-   null
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Đúng quy tắc thêm 's và nêu ngoại lệ, nguồn p02 hỗ trợ",
+  "answer_grade": 2
  },
  {
   "query_id": "q02",
-  "answerable": true,
-  "status": "answered",
-  "answer": "The exceptions to the rule of adding 's are the possessive of ancient proper names ending in *-es* and *-is*, the possessive *Jesus'*, and expressions like *for conscience' sake* and *for righteousness' sake*. Additionally, forms like *Achilles' heel*, *Moses' laws*, and *Isis' temple* are commonly replaced by alternative phrasings (such as *the laws of Moses*), and the pronominal possessives *hers*, *its*, *theirs*, *yours*, and *oneself* do not use an apostrophe [C-strunk-elements-of-style-1920-p02-001].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p02-001"
-  ],
   "citation_support": [
-   null
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Liệt kê đúng các ngoại lệ, có cả hers/its; nguồn p02",
+  "answer_grade": 2
  },
  {
   "query_id": "q03",
-  "answerable": true,
-  "status": "answered",
-  "answer": "In the names of business firms, the last comma is omitted [C-strunk-elements-of-style-1920-p02-002]. For example, \"Brown, Shipley & Co.\" [C-strunk-elements-of-style-1920-p02-002].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p02-002"
-  ],
   "citation_support": [
-   null
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Đúng: tên công ty bỏ dấu phẩy cuối",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q04",
+  "citation_support": [],
+  "reason": "Từ chối sai: p02-003 có trong kết quả tìm nhưng không vào context vì các chunk lấy trước đã chiếm hết 800 ký tự",
+  "answer_grade": 0
  },
  {
   "query_id": "q05",
-  "answerable": true,
-  "status": "answered",
-  "answer": "The proper mark of punctuation to join two grammatically complete clauses not joined by a conjunction is a semicolon [C-strunk-elements-of-style-1920-p06-002].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p06-002"
-  ],
   "citation_support": [
-   null
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Đúng: dấu chấm phẩy",
+  "answer_grade": 2
  },
  {
   "query_id": "q06",
-  "answerable": true,
-  "status": "answered",
-  "answer": "Independent clauses should not be joined by just a comma; if they are grammatically complete and not joined by a conjunction, the proper mark of punctuation is a semicolon [C-strunk-elements-of-style-1920-p06-002]. A comma is placed before a conjunction that introduces a co-ordinate clause [C-strunk-elements-of-style-1920-p04-002].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p06-002",
-   "C-strunk-elements-of-style-1920-p04-002"
-  ],
   "citation_support": [
-   null,
-   null
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Sai: chỉ nói không được dùng dấu phẩy, bỏ mất ngoại lệ (mệnh đề ngắn, cùng dạng) vì chunk p07 không có trong context",
+  "answer_grade": 0
  },
  {
   "query_id": "q07",
-  "answerable": true,
-  "status": "abstain",
-  "answer": "INSUFFICIENT_EVIDENCE: The provided text does not contain information regarding whether a single emphatic word or phrase can be punctuated as if it were a whole sentence.",
-  "citations": [],
   "citation_support": [],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Từ chối sai: chunk Rule 6 (729 ký tự) được tìm thấy nhưng không vừa ngân sách 800",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q08",
+  "citation_support": [],
+  "reason": "Từ chối sai: chunk Rule 7 (740 ký tự) được tìm thấy nhưng không vừa ngân sách 800",
+  "answer_grade": 0
  },
  {
   "query_id": "q09",
-  "answerable": true,
-  "status": "abstain",
-  "answer": "INSUFFICIENT_EVIDENCE: The text discusses making the paragraph the unit of composition and treating a single idea in a single paragraph if the subject is brief, but does not explicitly address whether a single sentence may stand as its own paragraph [C-strunk-elements-of-style-1920-p09-001].",
-  "citations": [],
   "citation_support": [],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Từ chối sai: chunk p10-001 dài, không vừa ngân sách 800",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q10",
+  "citation_support": [],
+  "reason": "Từ chối sai: cùng chunk p10-001 bị loại khi đóng gói",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q11",
+  "citation_support": [],
+  "reason": "Từ chối sai: chunk p14-001 không vừa context",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "q12",
+  "citation_support": [],
+  "reason": "Từ chối sai: dense không tìm thấy p19 (cụm từ nguyên văn) qua cả 3 lượt",
+  "answer_grade": 0
  },
  {
   "query_id": "q13",
-  "answerable": true,
-  "status": "abstain",
-  "answer": "INSUFFICIENT_EVIDENCE: The book does not contain instructions on which tense should be used when summarizing the action of a drama.",
-  "citations": [],
   "citation_support": [],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Từ chối sai: chunk p26-000 không vừa context",
+  "answer_grade": 0
  },
  {
   "query_id": "q14",
-  "answerable": true,
-  "status": "answered",
-  "answer": "The word \"data\" is a plural, like phenomena and strata [C-strunk-elements-of-style-1920-p34-005].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p34-005"
-  ],
   "citation_support": [
-   null
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Đúng: data là số nhiều",
+  "answer_grade": 2
  },
  {
   "query_id": "q15",
-  "answerable": true,
-  "status": "answered",
-  "answer": "A sentence containing an expression in parenthesis is punctuated, outside of the marks of parenthesis, exactly as if the expression in parenthesis were absent [C-strunk-elements-of-style-1920-p29-003].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p29-003"
-  ],
   "citation_support": [
-   null
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Đúng nguyên văn quy tắc",
+  "answer_grade": 2
  },
  {
   "query_id": "q16",
-  "answerable": true,
-  "status": "answered",
-  "answer": "In general, the word *while* should be used only with strict literalness, in the sense of \"during the time that.\" [C-strunk-elements-of-style-1920-p43-004]",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p43-004"
-  ],
-  "citation_support": [
-   null
-  ],
-  "answer_grade": null,
-  "reason": ""
+  "citation_support": [],
+  "reason": "Từ chối sai: chunk While (580 ký tự) được tìm thấy ở lượt sau nhưng context đã đầy bởi chunk lượt trước",
+  "answer_grade": 0
  },
  {
   "query_id": "u01",
-  "answerable": false,
-  "status": "abstain",
-  "answer": "INSUFFICIENT_EVIDENCE: The provided text does not contain information about when a writer should use a dash instead of a comma or a semicolon.",
-  "citations": [],
   "citation_support": [],
-  "abstention_correct": null,
-  "reason": ""
+  "reason": "Từ chối đúng, không khẳng định thêm",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u02",
+  "citation_support": [],
+  "reason": "Từ chối đúng",
+  "abstention_correct": true
  }
 ]

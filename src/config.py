@@ -6,7 +6,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+load_dotenv(Path(__file__).resolve().parent.parent / ".env")  # read GEMINI_MODEL / GEMINI_RPM before using them
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"

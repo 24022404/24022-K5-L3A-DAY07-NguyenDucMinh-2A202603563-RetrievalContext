@@ -1,206 +1,126 @@
 [
  {
   "query_id": "q01",
-  "answerable": true,
-  "status": "answered",
-  "answer": "The possessive singular of nouns is formed by adding 's, regardless of the final consonant, as seen in examples like *Charles's friend* and *Burns's poems* [C-strunk-elements-of-style-1920-p02-001]. Exceptions include ancient proper names ending in *-es* and *-is*, *Jesus'*, and expressions like *for conscience' sake* [C-strunk-elements-of-style-1920-p02-001].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p02-001"
-  ],
   "citation_support": [
-   null
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Đúng, đủ ngoại lệ",
+  "answer_grade": 2
  },
  {
   "query_id": "q02",
-  "answerable": true,
-  "status": "answered",
-  "answer": "The exceptions to the rule of adding 's to form the possessive singular are ancient proper names ending in -es and -is, the possessive *Jesus'*, and expressions like *for conscience' sake* and *for righteousness' sake*. Additionally, the pronominal possessives *hers*, *its*, *theirs*, *yours*, and *oneself* do not use an apostrophe [C-strunk-elements-of-style-1920-p02-001].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p02-001"
-  ],
   "citation_support": [
-   null
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Đúng, đủ ngoại lệ",
+  "answer_grade": 2
  },
  {
   "query_id": "q03",
-  "answerable": true,
-  "status": "answered",
-  "answer": "In the names of business firms, the last comma is omitted (for example, *Brown, Shipley & Co.*) [C-strunk-elements-of-style-1920-p02-002].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p02-002"
-  ],
   "citation_support": [
-   null
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Đúng, kèm quy tắc chung",
+  "answer_grade": 2
  },
  {
   "query_id": "q04",
-  "answerable": true,
-  "status": "answered",
-  "answer": "No, a writer must never insert one comma and omit the other when enclosing a parenthetic expression. [C-strunk-elements-of-style-1920-p02-003]",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p02-003"
-  ],
-  "citation_support": [
-   null
-  ],
-  "answer_grade": null,
-  "reason": ""
+  "citation_support": [],
+  "reason": "Câu trả lời đúng nhưng không có citation nên hệ thống chuyển thành từ chối",
+  "answer_grade": 0
  },
  {
   "query_id": "q05",
-  "answerable": true,
-  "status": "abstain",
-  "answer": "If two or more clauses, grammatically complete and not joined by a conjunction, are to form a single compound sentence, the proper mark of punctuation is a semicolon.",
-  "citations": [],
-  "citation_support": [],
-  "answer_grade": null,
-  "reason": ""
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng",
+  "answer_grade": 2
  },
  {
   "query_id": "q06",
-  "answerable": true,
-  "status": "answered",
-  "answer": "It is acceptable to join independent clauses with just a comma if the clauses are very short and are alike in form [C-strunk-elements-of-style-1920-p07-002]. Otherwise, independent clauses should not be joined by a comma alone [C-strunk-elements-of-style-1920-p06-002].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p07-002",
-   "C-strunk-elements-of-style-1920-p06-002"
-  ],
-  "citation_support": [
-   null,
-   null
-  ],
-  "answer_grade": null,
-  "reason": ""
+  "citation_support": [],
+  "reason": "Từ chối: 3 lần tìm vẫn chỉ ra p06, không ra ngoại lệ ở p07-002",
+  "answer_grade": 0
  },
  {
   "query_id": "q07",
-  "answerable": true,
-  "status": "answered",
-  "answer": "Yes, it is permissible to make an emphatic word or expression serve the purpose of a sentence and to punctuate it accordingly, provided the writer is certain the emphasis is warranted and will not be mistaken for a blunder in syntax or punctuation [C-strunk-elements-of-style-1920-p08-001].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p08-001"
-  ],
-  "citation_support": [
-   null
-  ],
-  "answer_grade": null,
-  "reason": ""
+  "citation_support": [],
+  "reason": "Từ chối sai: chunk Rule 6 được tìm thấy ở lượt sau nhưng context 1600 đã đầy bởi chunk các lượt trước",
+  "answer_grade": 0
  },
  {
   "query_id": "q09",
-  "answerable": true,
-  "status": "answered",
-  "answer": "As a rule, single sentences should not be written or printed as paragraphs [C-strunk-elements-of-style-1920-p10-001]. However, exceptions are made for sentences of transition, as well as in textbooks, guidebooks, and other works where many topics are treated briefly [C-strunk-elements-of-style-1920-p10-001]. Additionally, in dialogue, each speech forms its own paragraph [C-strunk-elements-of-style-1920-p10-001].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p10-001"
-  ],
   "citation_support": [
-   null
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Đúng, có cả ngoại lệ",
+  "answer_grade": 2
  },
  {
   "query_id": "q10",
-  "answerable": true,
-  "status": "answered",
-  "answer": "In dialogue, a new paragraph begins with each change of speaker, meaning that each speech (even if it consists of only a single word) forms its own paragraph [C-strunk-elements-of-style-1920-p10-001].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p10-001"
-  ],
   "citation_support": [
-   null
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Đúng",
+  "answer_grade": 2
  },
  {
   "query_id": "q11",
-  "answerable": true,
-  "status": "answered",
-  "answer": "No, the rule does not mean that the writer should entirely discard the passive voice, which is frequently convenient and sometimes necessary. [C-strunk-elements-of-style-1920-p14-001]",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p14-001"
-  ],
   "citation_support": [
-   null
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Đúng",
+  "answer_grade": 2
  },
  {
   "query_id": "q12",
-  "answerable": true,
-  "status": "answered",
-  "answer": "The expression \"the fact that\" should be revised out of every sentence in which it occurs [C-strunk-elements-of-style-1920-p19-002].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p19-002"
-  ],
   "citation_support": [
-   null
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Đúng, hybrid/BM25 bắt được cụm nguyên văn",
+  "answer_grade": 2
  },
  {
   "query_id": "q13",
-  "answerable": true,
-  "status": "answered",
-  "answer": "When summarizing the action of a drama, the writer should always use the present tense [C-strunk-elements-of-style-1920-p26-000].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p26-000"
-  ],
   "citation_support": [
-   null
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Đúng",
+  "answer_grade": 2
  },
  {
   "query_id": "q14",
-  "answerable": true,
-  "status": "answered",
-  "answer": "The word \"data\" is plural [C-strunk-elements-of-style-1920-p34-005].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p34-005"
-  ],
   "citation_support": [
-   null
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Đúng",
+  "answer_grade": 2
  },
  {
   "query_id": "q15",
-  "answerable": true,
-  "status": "answered",
-  "answer": "A sentence containing an expression in parenthesis is punctuated, outside of the marks of parenthesis, exactly as if the expression in parenthesis were absent [C-strunk-elements-of-style-1920-p29-003].",
-  "citations": [
-   "C-strunk-elements-of-style-1920-p29-003"
-  ],
   "citation_support": [
-   null
+   true
   ],
-  "answer_grade": null,
-  "reason": ""
+  "reason": "Đúng",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q16",
+  "citation_support": [],
+  "reason": "Từ chối sai: chunk While được tìm thấy ở lượt sau nhưng context đã đầy bởi chunk các lượt trước",
+  "answer_grade": 0
  },
  {
   "query_id": "u01",
-  "answerable": false,
-  "status": "abstain",
-  "answer": "INSUFFICIENT_EVIDENCE: The provided text does not contain any information about when to use a dash instead of a comma or a semicolon.",
-  "citations": [],
   "citation_support": [],
-  "abstention_correct": null,
-  "reason": ""
+  "reason": "Từ chối đúng",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u02",
+  "citation_support": [],
+  "reason": "Từ chối đúng",
+  "abstention_correct": true
  }
 ]

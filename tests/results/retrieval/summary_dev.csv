@@ -1,6 +1,0 @@
-﻿config,split,method,top_k,budget,N,hit1,hit3,context_evidence,mean_context_chars,median_latency_ms,cost_usd,misses_hit3,lost_in_packing
-dense,dev,dense,3,800,16,9,13,8,585,30.1,0,q04 q08 q12,q07 q09 q10 q11 q13
-bm25,dev,bm25,3,800,16,9,11,7,600,1.8,0,q04 q06 q07 q08 q09,q10 q11 q13 q16
-hybrid,dev,hybrid,3,800,16,9,12,8,599,28.9,0,q07 q08 q09 q12,q04 q10 q11 q13
-hybrid_rerank,dev,rerank,3,800,16,11,14,8,594,893.6,0,q08 q16,q04 q07 q09 q10 q11 q13
-hybrid_rerank_1600,dev,rerank,3,1600,16,11,14,14,1212,952.3,0,q08 q16,
